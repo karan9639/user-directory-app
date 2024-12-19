@@ -72,3 +72,28 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Node modules
+node_modules/
+
+# Build output
+build/
+dist/
+
+# OS-specific files
+.DS_Store
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React Native specific
+*.iml
+*.keystore
+.idea/
+.vscode/
+
+# Expo
+.expo/
+.expo-shared/
